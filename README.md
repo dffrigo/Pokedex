@@ -2,13 +2,13 @@
 > Pokemon's database  | Pokemon | Game
 
 
-<img width="297" alt="JavaScript2" src="https://user-images.githubusercontent.com/102762000/168402369-133e598e-6dff-4dbd-bf18-35007efe9603.png">
+<img width="361" alt="MIT JavaScript EJS HTML CSS" src="https://user-images.githubusercontent.com/102762000/170799710-524148ec-5387-403a-8128-1ad481eda2df.png">
 
 
 You will be able to view, search and create your own database of Pokemons. Enjoy it!
 
 
-![Spilialogo](https://user-images.githubusercontent.com/102762000/168400302-2e2dd256-42f5-411f-af56-f55a19efe878.png)
+![Github Pokedex](https://user-images.githubusercontent.com/102762000/170799721-9aaf4321-10bf-405a-806f-e784aad5af5d.png)
 
 
 ## Installation
