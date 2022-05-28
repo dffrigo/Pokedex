@@ -27,6 +27,8 @@ npm i nodemon --save-dev
 npm i express --save
 npm i --save ejs
 
+npm run dev //from root folder to running Nodemon server
+
 EXPRESS START TEMPLATE:
 const express = require("express");
 const app = express();
