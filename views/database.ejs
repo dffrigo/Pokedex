@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex | Database</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topnav">
+      <nav>
+        <a href="/">Home</a>
+        <a href="/Database">New Pokemon</a>
+      </nav>
+    </header>
+    <h1 class="titulo">Pokemon data</h1>
+    <div class="Container">
+      <form action="/New" method="POST">
+        <div class="campo">
+          <p class="TitleForm">Number:</p>
+          <label for="Numero"></label>
+          <input
+            type="number"
+            name="Numero"
+            class="InputForm"
+            id="input_numero"
+            required
+          />
+        </div>
+        <div class="campo">
+          <p class="TitleForm">Name:</p>
+          <label for="Nome"></label>
+          <input
+            class="InputForm"
+            type="text"
+            name="Nome"
+            id="input_nome"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Type:</p>
+          <label for="Tipo"></label>
+          <input
+            class="InputForm"
+            type="text"
+            name="Tipo"
+            id="input_tipo"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Image from web:</p>
+          <label for="Image"></label>
+          <input
+            class="InputForm"
+            type="src"
+            name="Image"
+            id="input_image"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Summary:</p>
+          <label for="Descricao"></label>
+          <input
+            class="InputForm"
+            type="text"
+            name="Descricao"
+            id="input_desc"
+            placeholder="Short description "
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Height:</p>
+          <label for="Altura"></label>
+          <input
+            class="InputForm"
+            type="number"
+            name="Altura"
+            id="input_altura"
+            placeholder="in meters "
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Weight:</p>
+          <label for="Peso"></label>
+          <input
+            class="InputForm"
+            type="number"
+            name="Peso"
+            id="input_peso"
+            placeholder="in kilograms "
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Category:</p>
+          <label for="Categoria"></label>
+          <input
+            class="InputForm"
+            type="text"
+            name="Categoria"
+            id="input_categoria"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Abilities:</p>
+          <label for="Habilidade"></label>
+          <input
+            class="InputForm"
+            type="text"
+            name="Habilidade"
+            id="input_habilidade"
+            required
+          />
+        </div>
+        <div class="CenterButton">
+          <button class="botao" type="submit">Add</button>
+        </div>
+      </form>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
