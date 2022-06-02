@@ -27,6 +27,8 @@ npm i nodemon --save-dev
 npm i express --save
 npm i --save ejs
 
+npm i dotenv //to create DOTENV dependencies for deployment
+
 npm run dev //from root folder to running Nodemon server
 
 EXPRESS START TEMPLATE:
